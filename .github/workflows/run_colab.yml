@@ -17,4 +17,4 @@ jobs:
           pip install nbconvert nbformat
       - name: Run notebook
         run: |
-          jupyter nbconvert --to notebook --execute Newsletter Eclinic.ipynb --output executed_notebook.ipynb
+          jupyter nbconvert --to notebook --execute Newsletter_Eclinic.ipynb --output executed_notebook.ipynb
